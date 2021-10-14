@@ -30,6 +30,9 @@ async function cleanProject(dir) {
 	const packageManifest = path.join(dir, 'package.json')
 	removeSync(path.join(dir, 'package-lock.json'))
 	removeSync(path.join(dir, 'node_modules'))
+	removeSync(path.join(dir, '.gitignore'))
+	removeSync(path.join(dir, '.npmignore'))
+	removeSync(path.join(dir, 'LICENSE'))
   
 	const {
 		scripts, 
