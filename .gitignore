@@ -1,5 +1,3 @@
-app-template-leaf
-cli
-dir
+createSnowpackApp.js
 .DS_Store
 node_modules
