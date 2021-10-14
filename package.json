@@ -1,20 +1,27 @@
 {
 	"name": "create-index-app",
+	"description": "Scaffolding for Index projects",
+	"license": "MIT",
 	"version": "0.1.1",
 	"main": "index.js",
-	"author": "indexorg",
-	"license": "MIT",
-	"description": "Scaffolding for Index projects",
-	"publishConfig": {
-		"access": "public"
-	},
-	"scripts": {
+		"scripts": {
 		"test": "echo \"No test specified\""
+	},
+	"bin": {
+		"create-index-app": "./index.js"
 	},
 	"dependencies": {
 		"execa": "^5.1.1",
 		"fs-extra": "^9.0.0",
 		"kleur": "^4.1.1",
 		"yargs-parser": "^20.0.0"
+	},
+	"author": "indexorg",
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/indexorg/create-index-app.git"
 	}
 }
