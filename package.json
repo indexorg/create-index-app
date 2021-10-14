@@ -2,13 +2,13 @@
 	"name": "create-index-app",
 	"description": "Scaffolding for Index projects",
 	"license": "MIT",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"main": "index.js",
-		"scripts": {
+	"scripts": {
 		"test": "echo \"No test specified\""
 	},
 	"bin": {
-		"create-index-app": "./index.js"
+		"create-index-app": "index.js"
 	},
 	"dependencies": {
 		"execa": "^5.1.1",
